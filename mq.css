@@ -1,0 +1,184 @@
+/*Tablet Query*/
+@media only screen and (max-width: 414px) {
+    body {
+        margin: 0 auto;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+    }
+ .header {
+    display: none;
+ }
+
+
+ .menu-btn { 
+  display: flex; 
+  position: absolute; 
+  background: transparent; 
+  z-index: 2; 
+  border: none; 
+  cursor: pointer; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  top: 10px; 
+  left: 10px; 
+  width: 30px; 
+  height: 30px; 
+}
+.menu-mobile { 
+  position: fixed; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  top: 0; 
+  left: -100%; 
+  width: 80%; 
+  height: 100%; 
+  background: rgb(197, 155, 155); 
+  padding: 20px; 
+  box-sizing: border-box; 
+  transition: all 0.3s ease; 
+  z-index: 1; 
+} 
+
+.menu-mobile.open { 
+  left: 0; 
+} 
+
+.menu-mobile p { 
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; 
+  color: rgb(128, 63, 63); 
+  font-size: 20px; 
+} 
+
+.menu-text{
+  display:flex ;
+  flex-direction: column;
+}
+ .top-menu-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+ .main-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+ }
+ .main-text h1 {
+    font-size: 50px;
+   
+ }
+ .main-text p {
+    display: flex;
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: center;
+ }
+  .main-text .center-btn {
+    margin-left: 15px;
+  }
+  .growing h1 {
+    text-align: center;
+  }
+  .black{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+  }
+  .black img{
+    width: 100%;
+    height: auto;
+  }
+  .stefan img {
+    width: 100%;
+    height: auto;
+  }
+  .back p{
+    display: flex;
+    width: 370px;
+  }
+  .pricing {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .pricing p {
+    text-align: center;
+  }
+  .anymore {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    
+  }
+  .anymore h1 {
+    width: 40%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .konoha {
+    display: none;
+  }
+  .yell {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  .scale {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .scale h1 {
+    
+    text-align: center;
+  }
+  .scale h3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 230px;
+  }
+  .check {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .footer .logo {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+  }
+ .uu {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+ }
+}
